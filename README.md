@@ -4,7 +4,7 @@
   <img src="https://infotelebd.com/wp-content/uploads/2019/06/Logo-1.png" alt="Infozillion Logo">
 </div>
 
-This repository contains two Python scripts developed at Infozillion Teletech BD Ltd. to automate web-based tasks using Selenium and PyAutoGUI. The scripts facilitate the automation of logging into a web dashboard, navigating to specific panels, and downloading data in CSV format. Additionally, a third script, named **Telecom-Error-Analyzer** and available in a separate repository, complements these automation scripts. Telecom-Error-Analyzer combines and analyzes the data downloaded by the first two scripts from MNO and IPTSP files, generating a comprehensive summary table.
+This repository contains two Python scripts developed at Infozillion Teletech BD Ltd. to automate web-based tasks using Selenium and PyAutoGUI. The scripts facilitate the automation of logging into a web dashboard, navigating to specific panels, and downloading data in CSV format. Additionally, a third script, named **Telecom-Error-Analyzer** and available in a separate repository, complements these automation scripts. Telecom-Error-Analyzer combines and analyzes the data downloaded by the first two scripts from Mobile Network Operator (MNO) and Internet Protocol Telephony Service Provider (IPTSP) files, generating a comprehensive summary table.
 
 ---
 
