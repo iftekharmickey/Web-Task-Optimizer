@@ -8,10 +8,12 @@ This repository contains two Python scripts developed at Infozillion Teletech BD
 
 ---
 
-## Script 1: mno-log-downloader.py
+## Dashboard Downloader
+
+This section includes scripts designed to automate web-based tasks for dashboard data retrieval. Two available scripts are `mno-log-downloader.py` and `iptsp-log-downloader.py`:
 
 - **Functionality:**
-  - Automates the login and data download process for the "MNO Failed HTTP Hit Count" panel on the specified dashboard.
+  - Automates the login and data download process for web dashboards related to MNO and IPTSP Failed HTTP Hit Count panels.
     
 - **User Input:**
   - Requests user input for the start and end times to define the time range for data retrieval.
@@ -24,35 +26,8 @@ This repository contains two Python scripts developed at Infozillion Teletech BD
   - Opens the Chrome browser and navigates to the provided URL.
   - Waits for the authentication prompt.
   - Uses PyAutoGUI to input username and password.
-  - Clicks through the dashboard to access panel options and downloads data as a CSV file.
+  - Navigates through the dashboard to access panel options and downloads data as a CSV file.
   - Waits for a specified time before closing the browser.
-
----
-
-## Script 2: iptsp-log-downloader.py
-
-- **Functionality:**
-  - Similar to Script 1 but tailored for the "IPTSP Failed HTTP Hit Count" panel on a different dashboard.
-    
-- **User Input:**
-  - Requests user input for the start and end times to define the time range for data retrieval.
-    
-- **Dependencies:**
-  - Selenium
-  - PyAutoGUI
-    
-- **Execution Steps:**
-  - Opens the Chrome browser and navigates to the provided URL.
-  - Waits for the authentication prompt.
-  - Uses PyAutoGUI to input username and password.
-  - Clicks through the dashboard to access panel options and downloads data as a CSV file.
-  - Waits for a specified time before closing the browser.
-
----
-
-## Telecom-Error-Analyzer
-
-- For data processing and analysis, refer to the [Telecom-Error-Analyzer](https://github.com/iftekharmickey/Telecom-Error-Analyzer).
 
 ---
 
@@ -94,6 +69,29 @@ This repository contains two Python scripts developed at Infozillion Teletech BD
 - **Web Browser Compatibility:**
 
   - The scripts are developed for Chrome. If you are using a different browser, update the WebDriver accordingly. 
+
+---
+
+## Telecom-Error-Analyzer
+
+For data processing and analysis, refer to the [Telecom-Error-Analyzer](https://github.com/iftekharmickey/Telecom-Error-Analyzer):
+
+- **Functionality:**
+  - Processes MNO and IPTSP files, combines them, and generates a summarized CSV file.
+
+- **User Input:**
+  - Requests the user to input the filenames for MNO and IPTSP files.
+
+- **Dependencies:**
+	- Pandas
+	- NumPy
+
+- **Execution Steps:**
+	- Loads and processes MNO and IPTSP files into DataFrames.
+	- Combines the DataFrames, filtering out specific rows.
+	- Performs data manipulation, pivoting, and calculation operations.
+	- Generates a comprehensive summary table.
+	- Saves the output to a CSV file.
 
 ---
 
