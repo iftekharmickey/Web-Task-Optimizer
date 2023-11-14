@@ -8,8 +8,8 @@
 
 - [Overview](#overview)
 - [Dashboard-Downloader](#dashboard-downloader)
-- [Usage](#usage)
-- [Important Notes](#important-notes)
+  - [Usage](#usage)
+  - [Important Notes](#important-notes)
 - [Telecom-Error-Analyzer](#telecom-error-analyzer)
 - [License](#license)
 - [Author](#author)
@@ -46,7 +46,7 @@ This section includes scripts designed to automate web-based tasks for dashboard
 
 ---
 
-## Usage
+### Usage
 
 1. **Clone Repository:**
 
@@ -70,7 +70,7 @@ This section includes scripts designed to automate web-based tasks for dashboard
 
 ---
 
-## Important Notes
+### Important Notes
 
 - **Security Measures:**
 
