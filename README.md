@@ -83,7 +83,11 @@ This section includes scripts designed to automate web-based tasks for dashboard
 
 - **Web Browser Compatibility:**
 
-  - The scripts are developed for Chrome. If you are using a different browser, update the WebDriver accordingly. 
+  - The scripts are developed for Chrome. If you are using a different browser, update the WebDriver accordingly.
+
+- **XPath Expressions:**
+
+  - Note that the scripts rely on XPath expressions to locate elements in the web application. If the structure of the web application changes, you may need to update the XPath expressions used in the scripts for accurate element identification.
 
 ---
 
